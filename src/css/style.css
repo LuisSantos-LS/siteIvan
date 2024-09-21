@@ -1,3 +1,38 @@
-h1 {
-    color: aqua;
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    
+}
+
+
+header{
+    background-color: rgb(238, 215, 178);
+    & div{
+        display: flex;
+        align-items:center;
+        width: 100vw;
+        gap: 90px;
+    }
+
+    
+
+    & img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nome-restaurante{
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
