@@ -27,5 +27,3 @@ O projeto apresenta um restaurante chamado "Sabor & Arte", que oferece uma exper
 2. Navegue até o diretório do projeto:
 ```bash
     cd SITEIVAN
-
-
