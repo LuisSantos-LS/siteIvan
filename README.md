@@ -27,3 +27,10 @@ O projeto apresenta um restaurante chamado "Sabor & Arte", que oferece uma exper
 2. Navegue até o diretório do projeto:
 ```bash
     cd SITEIVAN
+
+3. Abra o arquivo "inde.html" no seu navegador
+
+Como Usar
+Navegue pelas páginas para conhecer mais sobre o restaurante e visualizar o cardápio.
+Contribuições
+Este é um projeto em desenvolvimento e contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou sugerir melhorias.
