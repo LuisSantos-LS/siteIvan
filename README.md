@@ -23,3 +23,9 @@ O projeto apresenta um restaurante chamado "Sabor & Arte", que oferece uma exper
 1. Clone o repositório:
    ```bash
    git clone https://github.com/luissantos-ls/SITEIVAN.git
+
+2. Navegue até o diretório do projeto:
+```bash
+    cd SITEIVAN
+
+
