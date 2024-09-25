@@ -1,38 +1,57 @@
-body {
-    background-color: rgb(255, 255, 255);
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400..900&display=swap');
+/* BARRA DE NAVEGAÇÃO PAGIA INICIAL*/
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: aliceblue;
+    top: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding-left: 30;
+    padding-right: 30;
 }
 
-.logo{
-    
+#navBar{
+    width:80vw;
+    align-content: center;
 }
 
-
-header{
-    background-color: rgb(238, 215, 178);
-    & div{
-        display: flex;
-        align-items:center;
-        width: 100vw;
-        gap: 90px;
-    }
-
-    
-
-    & img{
-        width: 100px;
-        height: 100px;
-    }
+#icon-nav {
+    width: 70px;
+    height: 70px;
+    top: 0px;
+    padding-left: 160px;
 }
 
-.nav-link{
+#navBar li{
+    list-style: none;
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+
+}
+
+#navBar ul{
+    flex: 1;
+    display: flex;
+    justify-self: flex-end;
+    gap: 90px;
+}
+
+
+#navBar a{
+    background-color: transparent;
+    padding: 15 px;
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    padding-left: 30px;
 }
 
-.nome-restaurante{
-    text-transform: uppercase;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+body{
+    background-color: rgb(165, 85, 85);
 }
